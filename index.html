@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Function</title>
+</head>
+
+<body>
+
+  <div class="formulario">
+    <h1>COM JS</h1>
+    <form class="input">
+      <!-- oninput="respostas(), dentro do form -->
+      <label for="teste">Texto certo</label>
+      <textarea id="certo-texto" class="certo" type="text"></textarea>
+      <input type="button" value="enviar" onclick="add()">
+
+      <label for="teste">Texto errado</label>
+      <textarea id="teste-texto" class="teste" type="text"></textarea>
+
+    </form>
+  </div>
+
+  <div class="resposta1">
+    <h1>resposta</h1>
+    <p class="resposta"></p>
+  </div>
+
+
+
+  <script type="module" src="script.js"></script>
+</body>
+
+</html>
